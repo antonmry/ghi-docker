@@ -1,27 +1,27 @@
-# docker-ghi
+# ghi-docker
 
 Docker container for [github command line client](https://github.com/stephencelis/ghi/) following 
 [installation instructions](https://github.com/stephencelis/ghi/blob/master/README.md#install), using Ruby.
 
 ```
-docker pull antonmry/docker-ghi
+docker pull antonmry/ghi-docker
 ```
 
 ## Usage
 
 ```
-docker run -i -t --rm -v $HOME:/home/ghi antonmry/docker-ghi [command]
+docker run -i -t --rm -v $HOME:/home/ghi antonmry/ghi-docker [command]
 ```
 
 ```
-$ docker run --rm -v $HOME:/home/ghi antonmry/docker-ghi -v
+$ docker run --rm -v $HOME:/home/ghi antonmry/ghi-docker -v
 ghi version 1.1.1
 ```
 
 ### Detailed Example
 
 ```
-$ alias ghi='docker run -i -t --rm -v $HOME:/home/ghi antonmry/docker-ghi'
+$ alias ghi='docker run -i -t --rm -v $HOME:/home/ghi antonmry/ghi-docker'
 $ ghi config --auth YOUR_GITHUB_USER
 Enter antonmry's GitHub password (never stored):     ✔
 Two-factor authentication code: 046474
