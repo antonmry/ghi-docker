@@ -1,3 +1,5 @@
+[![](http://badge-imagelayers.iron.io/antonmry/ghi-docker:latest.svg)](http://imagelayers.iron.io/?images=antonmry/ghi-docker:latest 'Get your own badge on imagelayers.iron.io')
+
 # ghi-docker
 
 Docker container for [github command line client](https://github.com/stephencelis/ghi/) following 
